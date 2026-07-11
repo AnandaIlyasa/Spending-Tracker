@@ -7,14 +7,6 @@ Download the Project
 git clone https://github.com/YOUR_USERNAME/spending_tracker.git
 cd spending_tracker
 ```
-Install Dependencies
-```bash
-flutter pub get
-```
-Generate App Icons
-```bash
-dart run flutter_launcher_icons
-```
 ## 🔐 Setting Up Your Keys (.env)
 To unlock the Google Sheets backup and AI Copilot features, you need to add your personal setup keys.
 
@@ -55,9 +47,17 @@ GEMINI_API_KEY=<placeholder>
 4. Share Permissions: Click the blue Share button inside your Google Sheet. Paste your service account email address, set its role to Editor, and click save.
 
 ## 🏃 Running the App
-Connect physical phone or launch an emulator, then run these commands to run the flutter app:
+Install Dependencies
 ```bash
-flutter pub get && flutter run --release
+flutter pub get
+```
+Generate App Icons
+```bash
+dart run flutter_launcher_icons
+```
+Connect physical phone, then run this commands to run the flutter app:
+```bash
+flutter run --release
 ```
 ## ☕ Support & Donate
 If this project helped you out—or if you just want to buy me a coffee to support my work—you can do so [here](https://saweria.co/anandailyasa).
