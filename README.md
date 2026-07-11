@@ -57,7 +57,7 @@ GEMINI_API_KEY=<placeholder>
 ## 🏃 Running the App
 Connect physical phone or launch an emulator, then run these commands to run the flutter app:
 ```bash
-flutter pub get && flutter run
+flutter pub get && flutter run --release
 ```
 ## ☕ Support & Donate
 If this project helped you out—or if you just want to buy me a coffee to support my work—you can do so [here](https://saweria.co/anandailyasa).
